@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="discrption" content="parallax one page" />
+    <meta name="keyword"
+        content="agency, business, corporate, creative, freelancer, interior, joomla template, K2 Blog, minimal, modern, multipurpose, personal, portfolio, responsive, simple" />
+
+    <!--  Title -->
+    <title>Livereel Visual Factory</title>
+
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+
+    <!-- custom styles (optional) -->
+    <link href="assets/css/plugins.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+<script>
+    (function () {
+        function zoomOnScroll() {
+            var videos = document.querySelectorAll('.zoom-video');
+            var windowHeight = window.innerHeight;
+
+            videos.forEach(function (video) {
+                var rect = video.getBoundingClientRect();
+
+                if (rect.top < windowHeight && rect.bottom > 0) {
+                    var progress = 1 - Math.abs(rect.top / windowHeight);
+                    var scale = 1 + Math.min(progress * 0.2, 0.2);
+                    video.style.transform = 'scale(' + scale + ')';
+                } else {
+                    video.style.transform = 'scale(1)';
+                }
+            });
+        }
+
+        window.addEventListener('scroll', zoomOnScroll);
+        window.addEventListener('resize', zoomOnScroll);
+        zoomOnScroll();
+    })();
+</script>
+
+<body class="hamburger-menu dsn-effect-scroll dsn-ajax" data-dsn-mousemove="true">
+
+    <div class="preloader">
+        <div class="preloader-after"></div>
+        <div class="preloader-before"></div>
+        <div class="preloader-block">
+            <div class="title">Livereel Visual Factory</div>
+            <div class="percent">0</div>
+            <div class="loading">loading...</div>
+        </div>
+        <div class="preloader-bar">
+            <div class="preloader-progress"></div>
+        </div>
+    </div>
+
+    <!-- Nav Bar -->
+    <!-- Nav Bar -->
+    <div class="dsn-nav-bar">
+        <div class="site-header">
+            <div class="extend-container">
+                <div class="inner-header">
+                    <div class="main-logo">
+                        <a href="index.html">
+                            <img class="dark-logo" src="assets/img/logo-dark.png" alt="" />
+                            <img class="light-logo" src="assets/img/logo.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+                <nav class=" accent-menu main-navigation">
+                    <ul class="extend-container">
+                        <li><a href="index.html">HOME</a></li>
+                       
+                        <li class="custom-drop-down">
+                            <a href="#">FILM</a>
+                            <ul>
+                                
+                                <li><a href="one-page-3.html">FILM VFX</a></li>
+                                <li><a href="one-page-4.html">FILIM PREVISUALIZATION</a></li>
+                                <li><a href="project-2.html">VISUALISTION SUPERVISORS</a></li>
+                            </ul>
+                        </li>
+                        <li class="custom-drop-down">
+                            <a href="#">ADVERTISING</a>
+                            <ul>
+                                <li><a href="project-6.html">ADVERTISING VFX</a></li>
+                                <li><a href="one-page-4.html">PREVISUALIZATION</a></li>
+                            </ul>
+                        </li>
+                       <li>
+                            <a href="project-4.html">ACADEMY</a>
+                            </li>
+                          
+                        </li>
+                        <li class="custom-drop-down">
+                            <a href="#">OUR PROJECTS</a>
+                            <ul>
+                                 <li><a href="project-3.html">TOLLYWOOD</a></li>
+                                <li><a href="project-8.html">HOLLYWOOD</a></li>
+                                <li><a href="one-page-3-copy.html">SANDALWOOD</a></li>
+                            </ul>
+                        </li>
+                 <!---   <li><a href="project-4.html">Training</a></li>
+                        <li><a href="project-3.html">Tollywood</a></li>
+                        <li><a href="project-8.html">Hollywood</a></li>-->
+                        <!--<li class="custom-drop-down">
+                            <a href="#"></a>
+                            <ul>
+                                <li><a href="work.html"></a></li>
+                                <li><a href="project-9.html">Header One</a></li>
+                                <li><a href="project-7.html">Header Two</a></li>
+                                <li><a href="project-5.html">Header Three</a></li>
+                            </ul>
+                        </li>-->
+                        <!--<li>
+                            <a href="#project-8.html"></a>
+                            <ul>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="post.html">Single Post</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">CONTACT</a></li>-->
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header-top header-top-hamburger">
+            <div class="header-container">
+                <div class="logo main-logo">
+                    <a href="index.html">
+                        <img class="dark-logo" src="assets/img/logo-dark.png" alt="" />
+                        <img class="light-logo" src="assets/img/logo.png" alt="" />
+                    </a>
+                </div>
+
+                <div class="menu-icon" data-dsn="parallax" data-dsn-move="5">
+                    <div class="icon-m">
+                        <i class="menu-icon-close fas fa-times"></i>
+                        <span class="menu-icon__line menu-icon__line-left"></span>
+                        <span class="menu-icon__line"></span>
+                        <span class="menu-icon__line menu-icon__line-right"></span>
+                    </div>
+
+                    <div class="text-menu">
+                        <div class="text-button">Menu</div>
+                        <div class="text-open">Open</div>
+                        <div class="text-close">Close</div>
+                    </div>
+                </div>
+
+                <div class="nav">
+                    <div class="inner">
+                        <div class="nav__content">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-content">
+                    <div class="inner-content">
+                        <address class="v-middle">
+                            <span>Rd Number 48, Sri Sai Nagar, Madhapur, Hyderabad, Telangana 500081</span>
+                          
+                            <span>Level 3, 160, Edward Street, Brisbane QLD, Australia 4000</span>
+                        </address>
+                    </div>
+
+                </div>
+                
+
+
+               
+            </div>
+        </div>
+    </div>
+    <!-- End Nav Bar -->
+    <!-- End Nav Bar -->
+
+    <main class="main-root">
+        <div id="dsn-scrollbar">
+            <header>
+                <div class="header-hero header-hero-2" data-dsn-header="project">
+                    <div id="descover-holder" class="bg-circle-dotted"></div>
+
+                    <div class="container h-100">
+                        <div class="row align-items-center h-100">
+                            <div class="col-lg-12">
+                                <div class="contenet-hero">
+                                    <h1>SANDALWOOD</h1>
+                                    <p></p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="wrapper">
+        <!--- <section class="work-under-header" data-dsn-col="2">
+                    <div class="container">
+                        <div class="custom-container">
+                            <div class="row">
+                                <div class="col-lg-9 offset-lg-3">
+                                    <div class="work-container">
+                                        <div class="slick-slider">
+                                            <div class="work-item slick-slide">
+                                                <img class="has-top-bottom" src="assets/img/project/project3/p331.jpeg"
+                                                    alt="">
+                                                <div class="item-border"></div>
+                                                <div class="item-info">
+                                                    <a href="" data-dsn-grid="move-up"
+                                                        class="effect-ajax">
+
+                                                        <h5 class="cat">ROTOSCOPY</h5>
+                                                        <h4></h4>
+                                                       
+                                                    </a>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="work-item slick-slide">
+                                                <img class="has-top-bottom" src="assets/img/project/project3/P332.jpeg"
+                                                    alt="">
+                                                <div class="item-border"></div>
+                                                <div class="item-info">
+                                                    <a href="" data-dsn-grid="move-up"
+                                                        class="effect-ajax">
+
+                                                        <h5 class="cat">VFX PAINT</h5>
+                                                        <h4></h4>
+                                                        <span><span></span></span>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="work-item slick-slide">
+                                                <img class="has-top-bottom" src="assets/img/project/project3/P333.jpeg"
+                                                    alt="">
+                                                <div class="item-border"></div>
+                                                <div class="item-info">
+                                                    <a href="" data-dsn-grid="move-up"
+                                                        class="effect-ajax">
+
+                                                        <h5 class="cat">COMPOSITING</h5>
+                                                        <h4></h4>
+                                                        <span><span></span></span>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                            <div class="work-item slick-slide">
+                                                <img class="has-top-bottom" src="assets/img/project/project3/P335.jpeg" alt="">
+                                                <div class="item-border"></div>
+                                                <div class="item-info">
+                                                    <a href="" data-dsn-grid="move-up" class="effect-ajax">
+                                            
+                                                        <h5 class="cat">MOTION GRAPHICS</h5>
+                                                        <h4></h4>
+                                                        <span><span></span></span>
+                                                    </a>
+                                            
+                                                </div>
+                                            </div>
+                                            <div class="work-item slick-slide">
+                                                <img class="has-top-bottom" src="assets/img/project/project3/P336.png" alt="">
+                                                <div class="item-border"></div>
+                                                <div class="item-info">
+                                                    <a href="" data-dsn-grid="move-up" class="effect-ajax">
+                                            
+                                                        <h5 class="cat">PARTICLE EFFECTS</h5>
+                                                        <h4></h4>
+                                                        <span><span></span></span>
+                                                    </a>
+                                            
+                                                </div>
+                                            </div>
+                                            <div class="work-item slick-slide">
+                                                <img class="has-top-bottom" src="assets/img/project/project3/P337.jpeg" alt="">
+                                                <div class="item-border"></div>
+                                                <div class="item-info">
+                                                    <a href="" data-dsn-grid="move-up" class="effect-ajax">
+                                            
+                                                        <h5 class="cat">3D(UNREAL ENGINE)</h5>
+                                                        <h4></h4>
+                                                        <span><span></span></span>
+                                                    </a>
+                                            
+                                                </div>
+                                            </div>
+
+                                            <div class="work-item slick-slide">
+                                                <img class="has-top-bottom" src="assets/img/project/project3/P334.png"
+                                                    alt="">
+                                                <div class="item-border"></div>
+                                                <div class="item-info">
+                                                    <a href="" data-dsn-grid="move-up"
+                                                        class="effect-ajax">
+
+                                                        <h5 class="cat">MATCH MOVING</h5>
+                                                        <h4></h4>
+                                                        <span><span></span></span>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>-->
+
+                <!--<section class="our-services-2 section-margin">
+                    <div class="container">
+                        <div class="one-title" data-dsn-animate="up">
+                            <div class="title-sub-container">
+                                <p class="title-sub">Our Servcies</p>
+                            </div>
+                            <h2 class="title-main">New Branding Agency</h2>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="services-item">
+                                    <div class="corner corner-top"></div>
+                                    <div class="corner corner-bottom"></div>
+                                    <div class="icon">
+                                        <img src="assets/img/services/1.png" alt="">
+                                    </div>
+                                    <div class="services-header">
+                                        <h3>DIGITAL PRODUCTS</h3>
+                                    </div>
+                                    <p>Web design encompasses many different skills and disciplines in the production of
+                                        all
+                                        web.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="services-item selected">
+                                    <div class="corner corner-top"></div>
+                                    <div class="corner corner-bottom"></div>
+                                    <div class="icon">
+                                        <img src="assets/img/services/2.png" alt="">
+                                    </div>
+                                    <div class="services-header">
+                                        <h3>UI-UX DESIGN</h3>
+                                    </div>
+                                    <p>Web design encompasses many different skills and disciplines in the production of
+                                        all
+                                        web.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="services-item">
+                                    <div class="corner corner-top"></div>
+                                    <div class="corner corner-bottom"></div>
+                                    <div class="icon">
+                                        <img src="assets/img/services/3.png" alt="">
+                                    </div>
+                                    <div class="services-header">
+                                        <h3>WEB DEVELOPMENT</h3>
+                                    </div>
+                                    <p>Web design encompasses many different skills and disciplines in the production of
+                                        all
+                                        web.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>-->
+
+                <!--<div class="box-seat">
+                    <div class="dsn-v-text">
+                        <div class="container-fluid">
+                            <div class="box-middle-text">
+                                <h2 data-dsn-animate="text">People a Lift</h2>
+                                <p data-dsn-animate="text">When the Escalators Died in Stockholm’s Subway, Reebok Was
+                                    There to Give People a Lift.Literally</p>
+                                <a href="https://vimeo.com/175353205" class="vid">
+                                    <div class="play-button">
+                                        <div class="play-btn">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="inner-img" data-dsn-grid="move-up" data-overlay="9">
+                                <img class="has-top-bottom" src="assets/img/skills-2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+
+                <!--<section class="intro-about section-margin" data-dsn="color">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="intro-content-text">
+                
+                                    <h2 data-dsn-grid="move-section" data-dsn-move="-30" data-dsn-duration="100%" data-dsn-opacity="1.2"
+                                        data-dsn-responsive="tablet">
+                                        Rotoscopy
+                                    </h2>
+                
+                                    <p data-dsn-animate="up">
+                                        VFX Rotoscopy is the process of manually tracing objects frame by frame to separate them from
+                                        the background.
+                                        It is used to add, remove, or enhance visual elements in films, ads, and videos, ensuring clean
+                                        and realistic compositing.
+                                    </p>
+                
+                                    <h6 data-dsn-animate="text">Rotoscopy</h6>
+                                    <small data-dsn-animate="text"></small>
+                
+                                    <div class="exper">
+                                        <div class="numb-ex">
+                                            <span class="word" data-dsn-animate="text"></span>
+                                        </div>
+                                        <h4 data-dsn-animate="up"><br></h4>
+                                    </div>
+                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="background-mask">
+                        <div class="background-mask-bg"></div>
+                
+                        <div class="img-box" style="width:100%; height:100%;">
+                            <div class="img-cent" data-dsn-grid="move-up" style="width:100%; height:100%;">
+                                <div style="width:100%; height:100%;">
+                                    <img src="assets/img/project/project3/p331.jpeg" alt=""
+                                        style="width:100%; height:100%; object-fit:cover;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>-->
+
+
+               <!--- <section class="our-team our-team-not-bg section-margin section-padding">
+<!- ROTOSCOPE / KEYING -->
+<!-- ROTOSCOPE / KEYING -->
+<!-- ================= VFX SERVICES SECTION ================= -->
+
+<!-- ROTOSCOPE / KEYING -->
+<div class="box-gallery-vertical section-margin section-padding">
+    <div class="mask-bg"></div>
+    <div class="container">
+
+        <video class="zoom-video" src="assets/img/project/project3/Vrusshabha Vfx 25 Dec 2025.mp4" autoplay muted loop
+            playsinline style="
+                width:100%;
+                max-width:100%;
+                height:auto;
+                display:block;
+                object-fit:contain;
+                margin-bottom:32px;
+                transform:scale(1);
+                transition:transform 0.5s ease-out;
+            ">
+        </video>
+
+        <h2 style="font-weight:300;letter-spacing:4px;font-family:'Montserrat',sans-serif;">
+            Vrushabha – VFX Showcase
+        </h2>
+
+        <h6 style="font-weight:300;letter-spacing:2px;opacity:0.85;">
+            
+        </h6>
+
+        <p style="font-weight:300;line-height:1.8;opacity:0.85;">
+           
+            
+            We delivered cutting-edge visual effects to create realistic, cinematic visuals for the film.
+            Advanced CG, compositing, and simulations were used to enhance scale and spectacle.
+            Every frame was crafted with precision to achieve high-impact, industry-grade quality
+        </p>
+
+    </div>
+</div>
+
+<!-- PAINT & CLEAN-UP -->
+<div class="box-gallery-vertical section-margin section-padding" data-dsn="color">
+    <div class="mask-bg"></div>
+    <div class="container">
+
+        <video class="zoom-video" src="assets/img/project/project3/Gatha Vaibhava Vfx Nov 2025.mp4" autoplay muted loop
+            playsinline style="
+                width:100%;
+                max-width:100%;
+                height:auto;
+                display:block;
+                object-fit:contain;
+                margin-bottom:32px;
+                transform:scale(1);
+                transition:transform 0.5s ease-out;
+            ">
+        </video>
+
+        <h2 style="font-weight:300;letter-spacing:4px;">
+            Gatha Vaibhava – VFX Showcase
+        </h2>
+
+        <h6 style="font-weight:300;letter-spacing:2px;opacity:0.85;">
+            
+        </h6>
+
+        <p style="font-weight:300;line-height:1.8;opacity:0.85;">
+        We crafted high-quality visual effects to enhance the film’s cinematic depth and realism.
+        Advanced compositing, CG elements, and precision detailing were used to elevate every scene.
+        Our VFX work ensured a seamless blend of visuals that amplified storytelling impact.
+        </p>
+
+    </div>
+</div>
+
+<div class="box-gallery-vertical section-margin section-padding">
+    <div class="mask-bg"></div>
+    <div class="container">
+
+        <video class="zoom-video" src="assets/img/project/project3/Kaali Deviyagi Baa Lyrical Video Song  .mp4" autoplay muted loop
+            playsinline style="
+                width:100%;
+                max-width:100%;
+                height:auto;
+                display:block;
+                object-fit:contain;
+                margin-bottom:36px;
+                transform:scale(1);
+                transition:transform 0.5s ease-out;
+            ">
+        </video>
+
+        <h2 style="
+            font-weight:300;
+            letter-spacing:4px;
+            margin-bottom:12px;
+        ">
+            Kaali Deviyagi Baa – VFX Showcase
+        </h2>
+
+        <h6 style="
+            font-weight:300;
+            letter-spacing:2px;
+            opacity:0.85;
+            margin-bottom:18px;
+        ">
+            
+        </h6>
+
+        <p style="
+            font-weight:300;
+            line-height:1.8;
+            opacity:0.85;
+            margin-bottom:22px;
+        ">
+            For this project, we designed powerful visual effects that enhanced the divine intensity and cinematic impact of every
+            frame.
+            Our team implemented advanced compositing, CG enhancements, and detailed simulations to create striking, immersive
+            visuals.
+            The final output delivers seamless integration and high-quality VFX that elevate the storytelling experience.
+        </p>
+
+        <!-- SUB SERVICES -->
+      
+
+    </div>
+</div>
+
+<!-- MATCHMOVE / 3D CAMERA TRACKING -->
+
+
+<!-- MOTION GRAPHICS -->
+
+<!-- CGI / 3D (UNREAL ENGINE) -->
+
+
+<!-- ================= ZOOM ON SCROLL SCRIPT ================= -->
+<script>
+    (function () {
+        function zoomOnScroll() {
+            var videos = document.querySelectorAll('.zoom-video');
+            var windowHeight = window.innerHeight;
+
+            videos.forEach(function (video) {
+                var rect = video.getBoundingClientRect();
+                if (rect.top < windowHeight && rect.bottom > 0) {
+                    var progress = 1 - Math.abs(rect.top / windowHeight);
+                    var scale = 1 + Math.min(progress * 0.25, 0.25);
+                    video.style.transform = "scale(" + scale + ")";
+                } else {
+                    video.style.transform = "scale(1)";
+                }
+            });
+        }
+
+        window.addEventListener("scroll", zoomOnScroll);
+        window.addEventListener("resize", zoomOnScroll);
+        zoomOnScroll();
+    })();
+</script>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links p-relative">
+                <div class="row">
+    
+                    <!-- Logo & Social -->
+                    <div class="col-md-3 dsn-col-footer">
+                        <div class="footer-block">
+                            <div class="footer-logo">
+                                <a href="index.html">
+                                    <img src="assets/img/logo.png" alt="Livereel Studio">
+                                </a>
+                            </div>
+    
+                            <div class="footer-social">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Navigation -->
+                    <div class="col-md-3 dsn-col-footer">
+                        <div class="footer-block col-menu">
+                            <h4 class="footer-title">Navigation</h4>
+                            <nav>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+    
+                    <!-- Contact -->
+                    <div class="col-md-3 dsn-col-footer">
+                        <div class="footer-block col-contact">
+                            <h4 class="footer-title">Contact</h4>
+    
+                            <p>
+                                <strong>T</strong> <span>:</span>
+                                <a href="tel:+9104035512539">+91 040 3551 2539</a>
+                            </p>
+    
+                            <p>
+                                <strong>T</strong> <span>:</span>
+                                <a href="tel:+61493266876">+61 493 266 876</a>
+                            </p>
+    
+                            <p class="over-hidden">
+                                <strong>E</strong> <span>:</span>
+                                <a class="link-hover" data-hover-text="info@livereel.com" href="mailto:info@livereel.com">
+                                    info@livereel.com
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+    
+                    <!-- India Address -->
+                    <div class="col-md-3 dsn-col-footer">
+                        <div class="col-address">
+                            <h4 class="footer-title">India Office</h4>
+                            <p>
+                                Rd No. 48, Sri Sai Nagar,<br>
+                                Madhapur, Hyderabad,<br>
+                                Telangana 500081, India
+                            </p>
+                        </div>
+                    </div>
+    
+                    <!-- Australia Address -->
+                    <div class="col-md-3 dsn-col-footer">
+                        <div class="col-address">
+                            <h4 class="footer-title">Australia Office</h4>
+                            <p>
+                                Level 3, 160 Edward Street,<br>
+                                Brisbane, QLD 4000,<br>
+                                Australia
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+    
+            <!-- Copyright -->
+            <div class="copyright">
+                <div class="text-center">
+                    <p>© 2026 Livereel Studio. All Rights Reserved.</p>
+                    <div class="copright-text over-hidden">
+                        Designed by
+                        <a class="link-hover" data-hover-text="Livereel Studio" href="#">
+                            Livereel
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </footer>
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                
+
+            </div>
+
+          
+        </div>
+    </main>
+
+    <!-- Wait Loader -->
+    <div class="wait-loader">
+        <div class="loader-inner">
+            <div class="loader-circle">
+                <div class="loader-layer"></div>
+            </div>
+        </div>
+    </div>
+    <!-- // Wait Loader -->
+
+
+    <!-- cursor -->
+    <div class="cursor">
+
+        <div class="cursor-helper cursor-view">
+            <span>VIEW</span>
+        </div>
+
+        <div class="cursor-helper cursor-close">
+            <span>Close</span>
+        </div>
+
+        <div class="cursor-helper cursor-link"></div>
+    </div>
+    <!-- End cursor -->
+
+
+    <!-- Optional JavaScript -->
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/dsn-grid.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
